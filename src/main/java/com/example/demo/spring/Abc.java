@@ -23,9 +23,9 @@ public class Abc {
 
 
 
-		@GetMapping("/come")
+		@GetMapping("/go")
 		public String come(Model md) {
-			String msg="i am dinesh";
+			String msg="we are developers";
 			md.addAttribute("Dk",msg);
 			return "NewFile";
 
