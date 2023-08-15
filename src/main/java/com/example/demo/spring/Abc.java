@@ -23,7 +23,7 @@ public class Abc {
 
 
 
-		@GetMapping("/go")
+		@GetMapping("/dev")
 		public String come(Model md) {
 			String msg="we are developers";
 			md.addAttribute("Dk",msg);
